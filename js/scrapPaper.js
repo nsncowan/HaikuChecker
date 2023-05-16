@@ -27,7 +27,7 @@ const findSyllables = (state) => {
 }
 
 const isHaiku = (state) => {
-// Logic to assign bool isHaiku to true or false
+  // Logic to assign bool isHaiku to true or false
 }
 
 // Pass the split lines function into testHaiku
@@ -44,7 +44,7 @@ testHaiku(isHaiku);
 
 //Step 0: create initial state with input text
 //Step 1:
-testHaiku(splitToLines); 
+testHaiku(splitToLines);
 //Step 2:
 testHaiku(findSyllables);
 //Step 3: 
